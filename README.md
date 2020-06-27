@@ -6,11 +6,11 @@ Wordpress Theme utheme
 
 No money, no charge
 
-
-转载请注明出处 谢谢!
-
-
 Not encrypted. Allow secondary development.
+
+### 主题界面
+![](https://github.com/houhub/utheme/blob/master/screenshot.jpg)
+转载请注明出处 谢谢!
 
 ### 欢迎打赏
 如果你觉得 utheme 对你有帮助，或者想对我微小的工作一点支持，欢迎扫描下方微信二维码鼓励一下
