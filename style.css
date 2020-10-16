@@ -1624,7 +1624,7 @@ a:focus {
 }
 @media (max-width:1024px) {
     .header {
-        height:50px;
+        height:70px;
         text-align:center
     }
     .logo {
@@ -1671,7 +1671,7 @@ a:focus {
         left:0;
         z-index:91;
         display:block;
-        padding:18px 15px 0;
+        padding:25px 15px 0;
         height:50px;
         color:#060606;
         font-size:.875rem;
@@ -7026,7 +7026,7 @@ span.ymjihe-price {
 }
 .fa, .iconfont {
     font-style:normal;
-    font-size:.875rem;
+    font-size:25px;
     font-family:iconfont!important;
     -webkit-font-smoothing:antialiased;
     -webkit-text-stroke-width:.2px;
