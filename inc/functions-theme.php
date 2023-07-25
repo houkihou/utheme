@@ -920,9 +920,9 @@ function _load_scripts()
         wp_deregister_script('jquery');
         wp_deregister_script('l10n');
 
-        $jquery_js = (_hui('enabled_cdn_assets')) ? 'https://apps.bdimg.com/libs/jquery/2.0.0/jquery.min.js' : get_stylesheet_directory_uri() . '/js/jquery.js' ;
+        $jquery_js = (_hui('enabled_cdn_assets')) ? 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js' : get_stylesheet_directory_uri() . '/js/jquery.js' ;
         
-        wp_register_script('jquery', $jquery_js, false, _the_theme_version(), false);
+        wp_register_script('jquery', $jquery_js, false, false, false);
         // slide插件
         if (is_home() && _hui('home_header_style', 'style_0') == "style_0") {
             wp_enqueue_style('slides', get_stylesheet_directory_uri() . '/css/swiper.min.css', array(), _the_theme_version(), 'all');
